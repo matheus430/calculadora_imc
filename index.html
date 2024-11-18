@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png"/>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <div class="father-container">
+      <div class="container" id="containerback">
+        <h1 class="titulo">Calculadora de IMC</h1>
+  
+        <div class="input">
+          <label id="nomeestilonmc">Nome ✏️</label>
+          <input
+            class="nomeestilolcn"
+            type="text"
+            id="nome"
+            placeholder="Insira seu nome"
+          />
+        </div>
+  
+        <div class="input">
+          <label id="pesoestilonmc">Peso ⚖️</label>
+          <input
+            class="pesoestilolcn"
+            type="text"
+            pattern="[0-9]*"
+            id="peso"
+            placeholder="Peso em Kg's"
+          />
+        </div>
+  
+        <div class="input">
+          <label id="alturaestilonmc">Altura 📏</label>
+          <input
+            class="alturaestilolcn"
+            type="text"
+            pattern="[0-9]*"
+            inputmode="numeric"
+            id="altura"
+            placeholder="Altura em metros"
+          />
+        </div>
+        <button id="button">Calcular IMC</button>
+  
+        <div id="resultado"></div>
+      </div>
+    </div>
+    
+    
+    <div>
+
+      <footer id="footer-div">
+        <span>
+          <b>Desenvolvido por Matheus dos Santos Lopes ©</b>
+    
+          <b> XD </b>
+    
+          <a href="https://github.com/matheus430" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+    
+          <a
+            href="https://www.linkedin.com/in/matheuslindosembarba/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </span>
+      </footer>
+
+    </div>
+      
+    
+    
+  </body>
+
+  <script src="./script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/40d1f06a2e.js"
+    crossorigin="anonymous"
+  ></script>
+
+  
+</html>
